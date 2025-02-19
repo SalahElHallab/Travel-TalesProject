@@ -4,9 +4,10 @@ import Navbar from "../../Components/Navbar/Navbar";
 
 export default function Home(){
  return(
-<div>
+<div className="home">
 
 <Navbar/>
+<p>sd</p>
 </div>
 
 )
