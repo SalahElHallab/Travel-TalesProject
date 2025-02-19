@@ -1,0 +1,11 @@
+.NotificationContainer{
+    width: 18pc;
+    height:70vh;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.Leftbar{
+    flex: 1;
+}
