@@ -3,7 +3,7 @@ import "./mainpost.css";
 
 export default function MainPost(){
     return(
-<div>hello</div>
+<div></div>
     )
 
 }
