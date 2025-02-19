@@ -1,5 +1,10 @@
 import React from "react";
 import "./navbar.css";
+import searchIcon from '../../assets/Icons/searchlogo.svg';
+import Notifications from '../../assets/Icons/bell.svg';
+import Message from '../../assets/Icons/chaticon.svg';
+
+
 
 export default function Navbar(){
     return(
@@ -9,13 +14,13 @@ export default function Navbar(){
             </div>
             <div>
                 <div>
-                    <img src="" alt="" />
+                    <img src={`${searchIcon}`} alt="" />
                     <input type="text" name="" id="" />
                 </div>
             </div>
             <div>
-                <img src="" alt="" />
-                <img src="" alt="" />
+                <img src={`${Notifications}`} alt="" />
+                <img src={`${Message}`} alt="" />
                 <div>
                 <img src="" alt="" />
                 <p>Salah</p>
