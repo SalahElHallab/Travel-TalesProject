@@ -9,3 +9,13 @@
     overflow-y: auto;
     overflow-x: hidden;
 }
+.ComponentContainer {
+    width: 80%;
+    margin: 0 auto; /* Center horizontally */
+    display: flex;
+    justify-content: space-between;
+    position: absolute; /* Position at the top */
+    top: 0; /* Align to the top of the page */
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+}
