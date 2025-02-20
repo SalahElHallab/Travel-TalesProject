@@ -1,11 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+html, body {
+    overflow: hidden; /* Ensures no extra scrollbars */
+    height: 100vh; /* Prevents body from being taller than the screen */
 }
 
-html, body {
-  overflow-x: hidden; /* Stops horizontal scrolling */
-  width: 100%; /* Ensures full width */
-  background-color: rgb(235, 238, 242); /* Matches your home background */
+#root {
+    overflow-y: auto; /* Ensures only one main scrollbar */
+    height: 100vh;
 }

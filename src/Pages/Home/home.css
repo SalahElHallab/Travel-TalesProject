@@ -6,8 +6,7 @@
     box-sizing: border-box;
     
     position: relative;
-    overflow-y: auto;
-    overflow-x: hidden;
+    
     
 }
 .ComponentContainer {
@@ -23,4 +22,10 @@
 }
 body {
     background-color: rgb(235, 238, 242);
+    
     }
+   
+    
+    
+    
+    
