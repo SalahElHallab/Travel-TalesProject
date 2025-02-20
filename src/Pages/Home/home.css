@@ -1,5 +1,5 @@
 .home {
-    background-color: rgb(235, 238, 242);
+    
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -19,5 +19,8 @@
     top: 0; 
     left: 50%;
     transform: translateX(-50%); 
-    background-size:cover
+    
 }
+body {
+    background-color: rgb(235, 238, 242);
+    }
