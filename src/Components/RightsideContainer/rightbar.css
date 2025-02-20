@@ -21,3 +21,17 @@ flex: 0;
     padding: 10px;
 }
 
+.rightcontainer2{
+    width: 20pc;
+    height: 60vh;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 15px;
+
+}
+.Profileimage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
