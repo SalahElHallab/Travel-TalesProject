@@ -4,6 +4,7 @@ import searchIcon from '../../assets/Icons/searchlogo.svg';
 import Notifications from '../../assets/Icons/bell.svg';
 import Message from '../../assets/Icons/chaticon.svg';
 import Profileimage from '../../assets/Icons/ttnav.png';
+import ttlogo from '../../assets/Icons/ttlogo.png'
 
 
 
@@ -11,7 +12,7 @@ export default function Navbar(){
     return(
         <div className="mainNavbar">
             <div className="LogoContainer">
-                <p>Travel Tales</p>
+            <img src={`${ttlogo}`} style={{ width: '200px', height: 'auto' }} alt="" />
             </div>
             <div>
                 <div className="searchInputContainer">
