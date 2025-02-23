@@ -5,19 +5,17 @@ import Leftbar from "../../Components/LeftsideContainer/Leftbar";
 import MainPost from "../../Components/MainPostContainer/MainPost";
 import Rightbar from "../../Components/RightsideContainer/Rightbar";
 
-export default function Home(){
- return(
-<div className="home">
-
-<Navbar/>
-<div className="ComponentContainer">
-    <Leftbar/>
-    <MainPost/>
-    <Rightbar/>
-</div>
-</div>
-
-)
-
-
+export default function Home() {
+  return (
+    <div className="home">
+      <Navbar />
+      <div className="contentWrapper">
+        <div className="ComponentContainer">
+          <Leftbar />
+          <MainPost />
+          <Rightbar />
+        </div>
+      </div>
+    </div>
+  )
 }

@@ -2,12 +2,10 @@
 import Home from './Pages/Home/Home'
 
 function App() {
-
-
   return (
-    
-  <Home/>
-    
+    <div className="app">
+      <Home />
+    </div>
   )
 }
 

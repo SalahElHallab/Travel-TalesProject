@@ -1,31 +1,46 @@
 .home {
-    
     min-height: 100vh;
     width: 100%;
     display: flex;
+    flex-direction: column;
     box-sizing: border-box;
-    
-    position: relative;
-    
-    
-}
-.ComponentContainer {
-    width: 80%;
-    margin: 0 auto; 
+  }
+  
+  .contentWrapper {
+    margin-top: 60px; /* Adjust based on your navbar height */
+    width: 100%;
+    flex: 1;
     display: flex;
-    justify-content: space-between;
-    position: absolute;
-    top: 0; 
-    left: 50%;
-    transform: translateX(-50%); 
-    
-}
-body {
+    justify-content: center;
+  }
+  
+  .ComponentContainer {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  body {
     background-color: rgb(235, 238, 242);
-    
-    }
-   
-    
-    
-    
-    
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Update MainPost component styles */
+  .mainPostContainer {
+    flex: 2;
+  }
+  
+  /* Update Leftbar component styles */
+  .Leftbar {
+    flex: 1;
+    max-width: 300px;
+  }
+  
+  /* Add Rightbar component styles */
+  .Rightbar {
+    flex: 1;
+    max-width: 300px;
+  }
