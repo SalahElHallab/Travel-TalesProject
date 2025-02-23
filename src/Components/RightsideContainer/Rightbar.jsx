@@ -41,7 +41,7 @@ export default function Rightbar() {
                                 <p style={{ marginLeft: "10px" , textAlign:"start", marginTop:"-16px", fontSize:'11px',color:"#aaa" }}>Famous travler</p>
                             </div>
                             </div>
-                            <div style={{backgroundColor:"#aaa", padding:"10px",  marginRight:13, borderRadius:"50%"}}>
+                            <div style={{backgroundColor:"#aaa", padding:"10px",  marginRight:13, borderRadius:"50%", cursor:"pointer"}}>
                               <img src={`${addfriend}`}className="addfriend" alt="" />  
                             </div>
                         </div>
@@ -55,7 +55,7 @@ export default function Rightbar() {
                                 <p style={{ marginLeft: "10px" , textAlign:"start", marginTop:"-16px", fontSize:'11px',color:"#aaa" }}>Famous travler</p>
                             </div>
                             </div>
-                            <div style={{backgroundColor:"#aaa", padding:"10px",  marginRight:13, borderRadius:"50%"}}>
+                            <div style={{backgroundColor:"#aaa", padding:"10px",  marginRight:13, borderRadius:"50%", cursor:"pointer"}}>
                               <img src={`${addfriend}`}className="addfriend" alt="" />  
                             </div>
                         </div>
@@ -70,7 +70,7 @@ export default function Rightbar() {
                                 <p style={{ marginLeft: "10px" , textAlign:"start", marginTop:"-16px", fontSize:'11px',color:"#aaa" }}>Famous travler</p>
                             </div>
                             </div>
-                            <div style={{backgroundColor:"#aaa", padding:"10px",  marginRight:13, borderRadius:"50%"}}>
+                            <div style={{backgroundColor:"#aaa", padding:"10px",  marginRight:13, borderRadius:"50%", cursor:"pointer"}}>
                               <img src={`${addfriend}`}className="addfriend" alt="" />  
                             </div>
                         </div>
@@ -85,7 +85,7 @@ export default function Rightbar() {
                                 <p style={{ marginLeft: "10px" , textAlign:"start", marginTop:"-16px", fontSize:'11px',color:"#aaa" }}>Famous travler</p>
                             </div>
                             </div>
-                            <div style={{backgroundColor:"#aaa", padding:"10px",  marginRight:13, borderRadius:"50%"}}>
+                            <div style={{backgroundColor:"#aaa", padding:"10px",  marginRight:13, borderRadius:"50%", cursor:"pointer"}}>
                               <img src={`${addfriend}`}className="addfriend" alt="" />  
                             </div>
                         </div>
@@ -100,7 +100,7 @@ export default function Rightbar() {
                                 <p style={{ marginLeft: "10px" , textAlign:"start", marginTop:"-16px", fontSize:'11px',color:"#aaa" }}>Famous travler</p>
                             </div>
                             </div>
-                            <div style={{backgroundColor:"#aaa", padding:"10px",  marginRight:13, borderRadius:"50%"}}>
+                            <div style={{backgroundColor:"#aaa", padding:"10px",  marginRight:13, borderRadius:"50%", cursor:"pointer"}}>
                               <img src={`${addfriend}`}className="addfriend" alt="" />  
                             </div>
                         </div>
@@ -115,7 +115,7 @@ export default function Rightbar() {
                                 <p style={{ marginLeft: "10px" , textAlign:"start", marginTop:"-16px", fontSize:'11px',color:"#aaa" }}>Famous travler</p>
                             </div>
                             </div>
-                            <div style={{backgroundColor:"#aaa", padding:"10px",  marginRight:13, borderRadius:"50%"}}>
+                            <div style={{backgroundColor:"#aaa", padding:"10px",  marginRight:13, borderRadius:"50%", cursor:"pointer"}}>
                               <img src={`${addfriend}`}className="addfriend" alt="" />  
                             </div>
                         </div>
