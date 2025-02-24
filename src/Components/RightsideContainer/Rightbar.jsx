@@ -8,7 +8,7 @@ import p2 from "../../assets/p2.jpg"
 import p3 from "../../assets/p3.jpg"
 import p4 from "../../assets/p4.jpg"
 import p5 from "../../assets/p5.jpeg"
-
+import journalbook from "../../assets/journalbook.jpg"
 export default function Rightbar() {
     return (
         <div className="rightbar">
@@ -17,14 +17,15 @@ export default function Rightbar() {
                     <img src={`${img}`} className="travelimg"></img>
                     <div>
                         <p style={{ textAlign: "start", margin: "10px", marginTop: -50 }}>Travel Tales</p>
-                        <p style={{ textAlign: "start", margin: "10px", fontSize: "12px", marginTop: "-10px" }}>Are you ready?</p>
+                        <p style={{ textAlign: "start", margin: "10px", fontSize: "12px", marginTop: "-10px" }}>Where every TRAVEL becomes a TALE</p>
                     </div>
                 </div>
                 <div className="travelcontainer">
-                    <img src={`${img}`} className="travelimg"></img>
+                    <img src={`${journalbook}`} className="travelimg"></img>
                     <div>
-                        <p style={{ textAlign: "start", margin: "10px", marginTop: -50 }}>Record your travels</p>
-                        <p style={{ textAlign: "start", margin: "10px", fontSize: "12px", marginTop: "-10px" }}>All about memories</p>
+                        <p style={{ textAlign: "start", margin: "10px", marginTop: -5 }}>Record your travels</p>
+                        <p style={{ textAlign: "start", margin: "10px", fontSize: "12px", marginTop: "-10px" }}>Document your journey, share experiences, 
+                            and connect with fellow travelers. Your travel story matters!</p>
                     </div>
                 </div>
 
