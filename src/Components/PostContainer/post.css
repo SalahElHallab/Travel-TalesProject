@@ -1,0 +1,14 @@
+.PostContainer{
+
+}
+.SubPostContainer{
+
+    width: 100%;
+    max-width:700px; 
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 0px;
+
+}
