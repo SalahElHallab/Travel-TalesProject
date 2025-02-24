@@ -1,5 +1,11 @@
 import React from "react";
 import "./post.css"
+import profilepic from "../../assets/Icons/ttnav.png"
+import paristpost from "../../assets/parispost.jpg"
+import like from "../../assets/Icons/likeicon.png"
+import comment from "../../assets/Icons/commenticon.svg"
+import share from "../../assets/Icons/shareicon.svg"
+import options from "../../assets/Icons/optionsicon.svg"
 
 
 export default function Post(){
@@ -7,9 +13,29 @@ export default function Post(){
         <div className="PostContainer">
             <div className="SubPostContainer">
                   <div>
-                    <div>
-                    <img src="" alt="" />
-                    <p>Salah</p>
+                    <div style={{display:"flex", alignItems:"center"}}>
+                    <img src={`${profilepic}`} className="PostImage" alt="" />
+                    <p style={{marginLeft:"5px"}}>Salah</p>
+                    <img src={`${options}`} className="moreicon" />
+                  </div>
+                  <p style={{textAlign:"start", width:"96%", marginLeft:10, marginTop:0}}>Finally made it to Paris!  The Eiffel Tower is even more breathtaking in person.  Spent the day wandering through the Louvre and indulging in some delicious pastries.  Any recommendations for hidden gems in the city? #Paris #France #EiffelTower #Louvre #Travelgram #Explore</p>
+                  <img src={`${paristpost}`} className="PostImages" alt="" />
+                  <div style={{display:"flex"}}>
+                        <div style={{display:"flex", marginLeft:"10px"}}>
+                            <div style={{display:"flex", alignItems:"center", cursor:"pointer"}}>
+                                <img src={`${like}`} className="iconforPost" />
+                                <p style={{marginLeft:"5px"}}>20 Likes</p>
+                            </div>
+                            <div style={{display:"flex",  marginLeft:20, cursor:"pointer", alignItems:"center"}}>
+                                <img src={`${comment}`} className="iconforPost"/>
+                                <p style={{marginLeft:"5px"}}>5 Comments</p>
+                            </div>
+                        </div>
+                        <div style={{display:"flex",  marginLeft:250, cursor:"pointer", alignItems:"center"}}>
+                                <img src={`${share}`} className="iconforPost"/>
+                                <p style={{marginLeft:"5px"}}>Share</p>
+                            </div>
+                    
                   </div>
                   </div>
             </div>

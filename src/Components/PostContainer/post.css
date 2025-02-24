@@ -2,7 +2,6 @@
 
 }
 .SubPostContainer{
-
     width: 100%;
     max-width:700px; 
     background-color: white;
@@ -11,4 +10,24 @@
     border-radius: 10px;
     margin-left: 0px;
 
+}
+.PostImage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.PostImages{
+    width: 100%;
+    height:auto;
+    border-radius: 10px;
+
+}
+.iconforPost{
+    width: 20px;
+ 
+}
+.moreicon{
+    width: 30px;
+    margin-left: 410px;
 }
