@@ -7,7 +7,7 @@ import comment from "../../assets/Icons/commenticon.svg"
 import share from "../../assets/Icons/shareicon.svg"
 import options from "../../assets/Icons/optionsicon.svg"
 import activelike from "../../assets/Icons/activelike.png"
-
+import addcomment from "../../assets/Icons/addcomment.png"
 
 export default function Post(){
     const [Like, setLike]= useState(likeicon);
@@ -42,7 +42,7 @@ export default function Post(){
                         <div style={{display:"flex", marginLeft:"10px"}}>
                             <div style={{display:"flex", alignItems:"center", cursor:"pointer"}}>
                                 <img src={`${Like}`} className="iconforPost" onClick={handleLike} />
-                                <p style={{marginLeft:"5px"}}>20 Likes</p>
+                                <p style={{marginLeft:"5px"}}>{count} Likes</p>
                             </div>
                             <div style={{display:"flex",  marginLeft:20, cursor:"pointer", alignItems:"center"}}>
                                 <img src={`${comment}`} className="iconforPost"/>
@@ -54,6 +54,12 @@ export default function Post(){
                                 <p style={{marginLeft:"5px"}}>Share</p>
                             </div>
                     
+                  </div>
+                  <div style={{display:"flex", alignItems:"center"}}>
+                  <img src={`${profilepic}`} className="PostImage" alt=""/>
+                  {/* <p style={{marginLeft:"6px"}}>Salah</p> */}
+                  <input type="text" className="commentinput" placeholder="Write your thoughts" />
+                  <button>Add commment</button>
                   </div>
                   </div>
             </div>

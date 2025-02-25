@@ -31,3 +31,9 @@
     width: 30px;
     margin-left: 390px;
 }
+.commentinput{
+    width: 20pc;
+    margin-left: 10px;
+    border: none;
+    height: 5vh;
+}
