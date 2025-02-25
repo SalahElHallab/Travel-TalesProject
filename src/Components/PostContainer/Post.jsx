@@ -1,14 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import "./post.css"
 import profilepic from "../../assets/Icons/ttnav.png"
 import paristpost from "../../assets/parispost.jpg"
-import like from "../../assets/Icons/likeicon.png"
+import likeicon from "../../assets/Icons/likeicon.png"
 import comment from "../../assets/Icons/commenticon.svg"
 import share from "../../assets/Icons/shareicon.svg"
 import options from "../../assets/Icons/optionsicon.svg"
+import activelike from "../../assets/Icons/activelike.png"
 
 
 export default function Post(){
+    const [Like, setLike]= useState(likeicon);
+    const [count, setCount]= useState(0);
+
+    const handleLike= ()=>{
+         if(Like===likeicon){
+            setLike(activelike);
+            setCount(count+1);
+         }
+         else{
+            setLike(likeicon);
+            setCount(count-1);
+         }
+    }
     return(
         <div className="PostContainer">
             <div className="SubPostContainer">
@@ -27,7 +41,7 @@ export default function Post(){
                   <div style={{display:"flex"}}>
                         <div style={{display:"flex", marginLeft:"10px"}}>
                             <div style={{display:"flex", alignItems:"center", cursor:"pointer"}}>
-                                <img src={`${like}`} className="iconforPost" />
+                                <img src={`${Like}`} className="iconforPost" onClick={handleLike} />
                                 <p style={{marginLeft:"5px"}}>20 Likes</p>
                             </div>
                             <div style={{display:"flex",  marginLeft:20, cursor:"pointer", alignItems:"center"}}>
