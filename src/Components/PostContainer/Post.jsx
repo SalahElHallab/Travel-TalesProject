@@ -16,7 +16,8 @@ export default function Post(){
                     <div style={{display:"flex", alignItems:"center"}}>
                     <img src={`${profilepic}`} className="PostImage" alt="" />
                     <div>
-                    <p style={{marginLeft:"5px"}}>Salah</p>
+                    <p style={{marginLeft:"5px", textAlign:"start"}}>Salah</p>
+                    <p style={{fontSize:"11px", textAlign:'start', marginLeft:5, marginTop:-13, color:"#aaa"}}>Paris,France</p>
                     </div>
                     
                     <img src={`${options}`} className="moreicon" />
