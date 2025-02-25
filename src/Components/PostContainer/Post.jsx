@@ -15,7 +15,10 @@ export default function Post(){
                   <div>
                     <div style={{display:"flex", alignItems:"center"}}>
                     <img src={`${profilepic}`} className="PostImage" alt="" />
+                    <div>
                     <p style={{marginLeft:"5px"}}>Salah</p>
+                    </div>
+                    
                     <img src={`${options}`} className="moreicon" />
                   </div>
                   <p style={{textAlign:"start", width:"96%", marginLeft:10, marginTop:0}}>Finally made it to Paris!  The Eiffel Tower is even more breathtaking in person.  Spent the day wandering through the Louvre and indulging in some delicious pastries.  Any recommendations for hidden gems in the city? #Paris #France #EiffelTower #Louvre #Travelgram #Explore</p>
