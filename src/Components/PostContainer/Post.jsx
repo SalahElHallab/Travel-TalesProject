@@ -59,7 +59,7 @@ export default function Post(){
                   <img src={`${profilepic}`} className="PostImage" alt=""/>
                   {/* <p style={{marginLeft:"6px"}}>Salah</p> */}
                   <input type="text" className="commentinput" placeholder="Write your thoughts" />
-                  <button>Add commment</button>
+                  <button className="addCommentbtn"><img style={{width:"25px"}}src={`${addcomment}`}/></button>
                   </div>
                   </div>
             </div>
