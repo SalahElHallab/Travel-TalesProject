@@ -12,6 +12,8 @@ import addcomment from "../../assets/Icons/addcomment.png"
 export default function Post(){
     const [Like, setLike]= useState(likeicon);
     const [count, setCount]= useState(0);
+    const [Comments, setComments]= useState([]);
+    const [commentwriting, setcommentwriting]= useState("");
 
     const handleLike= ()=>{
          if(Like===likeicon){
@@ -23,6 +25,22 @@ export default function Post(){
             setCount(count-1);
          }
     }
+
+const addComment= ()=>{
+    const comment= {
+        "id":"61fsbf23123123123123",
+        "username":"salah",
+        "title":`${commentwriting}`
+    }
+    setComments(Comments.concat(comment));
+}
+
+const handleComment = () => {
+    addComment();
+}
+
+console.log(Comments);
+
     return(
         <div className="PostContainer">
             <div className="SubPostContainer">
@@ -58,9 +76,18 @@ export default function Post(){
                   <div style={{display:"flex", alignItems:"center"}}>
                   <img src={`${profilepic}`} className="PostImage" alt=""/>
                   {/* <p style={{marginLeft:"6px"}}>Salah</p> */}
-                  <input type="text" className="commentinput" placeholder="Write your thoughts" />
-                  <button className="addCommentbtn"><img style={{width:"25px"}}src={`${addcomment}`}/></button>
+                  <input type="text" className="commentinput" placeholder="Write your thoughts" onChange={(e)=> setcommentwriting(e.target.value)} />
+                  <button className="addCommentbtn" onClick={handleComment}><img style={{width:"25px"}}src={`${addcomment}`}/></button>
                   </div>
+                  {Comments.map((item)=> (
+                      <div>
+                          <img src={`${profilepic}`} className="PostImage" alt="" />
+                          <p style={{ marginLeft: "6px" }}>{item.username}</p>
+                          
+                          
+                      </div>
+                  ))}
+                 
                   </div>
             </div>
 
