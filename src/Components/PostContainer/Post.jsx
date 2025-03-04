@@ -43,9 +43,9 @@ export default function Post() {
     console.log(Comments);
 
     const handleshowcomments = () => {
-        if(show=== false){
+        if (show === false) {
             setshow(true);
-        } else{
+        } else {
             setshow(false);
         }
     }
@@ -72,7 +72,7 @@ export default function Post() {
                                 <p style={{ marginLeft: "5px" }}>{count} Likes</p>
                             </div>
                             <div style={{ display: "flex", marginLeft: 20, cursor: "pointer", alignItems: "center" }}>
-                                <img src={`${comment}`} className="iconforPost" onClick={handleshowcomments}/>
+                                <img src={`${comment}`} className="iconforPost" onClick={handleshowcomments} />
                                 <p style={{ marginLeft: "5px" }}>5 Comments</p>
                             </div>
                         </div>
@@ -82,27 +82,53 @@ export default function Post() {
                         </div>
 
                     </div>
-                    {show === true ? 
-                    <div>
-                        <div style={{ display: "flex", alignItems: "center" }}>
-                            <img src={`${profilepic}`} className="PostImage" alt="" />
-                            {/* <p style={{marginLeft:"6px"}}>Salah</p> */}
-                            <input type="text" className="commentinput" placeholder="Write your thoughts" onChange={(e) => setcommentwriting(e.target.value)} />
-                            <button className="addCommentbtn" onClick={handleComment}><img style={{ width: "25px" }} src={`${addcomment}`} /></button>
-                        </div>
-
-                        {Comments.map((item) => (
-                            <div style={{ display: "flex", alignItems: "center", gap: "10px", maxWidth: "100%" }}>
+                    {show === true ?
+                        <div>
+                            <div style={{ display: "flex", alignItems: "center" }}>
                                 <img src={`${profilepic}`} className="PostImage" alt="" />
-                                <div style={{ maxWidth: "calc(100% - 50px)", wordBreak: "break-word" }}>
-                                    <p style={{ margin: 0, fontWeight: "bold" }}>{item.username}</p>
-                                    <p style={{ margin: 0, color: "#111" }}>{item.title}</p>
-                                </div>
+                                {/* <p style={{marginLeft:"6px"}}>Salah</p> */}
+                                <input type="text" className="commentinput" placeholder="Write your thoughts" onChange={(e) => setcommentwriting(e.target.value)} />
+                                <button className="addCommentbtn" onClick={handleComment}><img style={{ width: "25px" }} src={`${addcomment}`} /></button>
                             </div>
 
-                        ))}
-                    </div>:""
-                      }
+                            {Comments.map((item) => (
+                                <div
+                                    style={{
+                                        display: "flex",
+                                        alignItems: "center",
+                                        gap: "10px",
+                                        maxWidth: "100%",
+                                        marginTop: "8px",
+                                    }}
+                                >
+                                    <img src={`${profilepic}`} className="PostImage" alt="" />
+                                    <div
+                                        style={{
+                                            maxWidth: "calc(100% - 50px)",
+                                            wordBreak: "break-word",
+                                        }}
+                                    >
+                                        <p style={{ margin: 0, fontWeight: "bold", fontSize: "14px" }}>{item.username}</p>
+                                        <p style={{ margin: 0, color: "#111", fontSize: "15px", marginTop: "-2px" }}>{item.title}</p>
+                                        <p
+                                            style={{
+                                                margin: "2px 0",
+                                                color: "#666",
+                                                fontSize: "12px",
+                                                cursor: "pointer",
+                                                marginTop: "2px",
+                                            }}
+                                            onMouseOver={(e) => (e.target.style.textDecoration = "underline")}
+                                            onMouseOut={(e) => (e.target.style.textDecoration = "none")}
+                                        >
+                                            Reply
+                                        </p>
+                                    </div>
+                                </div>
+                            ))}
+
+                        </div> : ""
+                    }
                 </div>
             </div>
 
