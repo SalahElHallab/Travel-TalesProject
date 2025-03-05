@@ -1,7 +1,7 @@
 .NotificationContainer{
     width: 18pc;
     height:70vh;
-    background-color: white;
+    background-color:black;
     margin-top: 20px;
     border-radius: 20px;
     overflow: hidden;
@@ -11,11 +11,12 @@
 .ProfileLeftbar{
     flex: 1;
 }
-.notificationimg{
-    width: 37px;
-    height: 37px;
+.Profilepageimage{
+    width: 60px;
     border-radius: 50%;
-    margin-left: 10px;
+    height: 60px;
+    object-fit: cover;
+
 }
 .likeimg{
     width: 30px;
@@ -23,11 +24,10 @@
     margin-left: 43px;
     border-radius: 3px;
 }
-.followinguserimage{
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    margin-left: 40px;
+.ProfilepageCover{
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
 }
 
 .exploreimage{
