@@ -7,3 +7,10 @@
     padding-top: 60px;
   }
   
+.subProfileContainer{
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
