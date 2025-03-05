@@ -13,7 +13,7 @@ export default function ProfileLeftbar() {
                     <img src={`${img1}`} className="Profilepageimage" />
                     <div>
                         <p style={{ marginLeft: 6, marginTop: 20, color: "white", textAlign:"start" }}>Salah</p>
-                        <p style={{ marginLeft: 6, marginTop: 20, color: "white", textAlign:"start" }}>Lebanese</p>
+                        <p style={{ marginLeft: 6, marginTop: 20, color: "white", textAlign:"start", marginTop:-15, fontSize:13 }}>Lebanese</p>
                     </div>
 
                 </div>
