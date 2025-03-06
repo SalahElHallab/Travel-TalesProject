@@ -21,14 +21,17 @@ export default function ProfileLeftbar() {
                     <p style={{color:"black", marginLeft:20, fontSize:'14px'}} > Places Visited </p>
                     <p style={{color:"black", marginRight:40, fontSize:'12px', marginTop:17}} > 1 </p>
                 </div>
+                <hr style={{marginTop:-10}}/>
                 <div style={{display:'flex', justifyContent:"space-between", marginTop:-20}}>
                     <p style={{color:"black", marginLeft:20, fontSize:'14px'}} >Travel Buddies</p>
                     <p style={{color:"black", marginRight:40, fontSize:'12px', marginTop:17}} > 2 </p>
                 </div>
+                <hr style={{marginTop:-10}}/>
                 <div style={{ marginTop:-20}}>
-                    <h5 style={{color:"black",  fontSize:'14px',  textAlign:"center", marginTop:40, marginBottom:-5,  fontFamily: "'Lucida Handwriting', serif"}} >Traveler's Note</h5>
+                    <h5 style={{color:"black",  fontSize:'14px',  textAlign:"center", marginTop:30, marginBottom:-5,  fontFamily: "'Lucida Handwriting', serif"}} >Traveler's Note</h5>
                     <p style={{color:"black",  fontSize:'14px', textAlign:"center", marginLeft:10, marginRight:10}} > Capturing the world one photo at a time while chasing the best espresso.</p>
                 </div>
+                <button style={{width:"100%", paddingTop:7, paddingBottom:7, border:"none", backgroundColor:"#CFEFFD"}}>Edit Note</button>
             </div>
             <div className="NotificationContainer">
 

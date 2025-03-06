@@ -1,11 +1,11 @@
 .NotificationContainer{
     width: 18pc;
-    height:70vh;
-    background-color:#f0ede9;
+    height:60vh;
+    background-color:#f9f6f2;
     margin-top: 20px;
     border-radius: 20px;
     overflow: hidden;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
 }
 
 .ProfileLeftbar{
