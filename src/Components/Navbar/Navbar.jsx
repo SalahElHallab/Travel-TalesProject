@@ -5,6 +5,7 @@ import Notifications from '../../assets/Icons/bell.svg';
 import Message from '../../assets/Icons/chaticon.svg';
 import Profileimage from '../../assets/Icons/ttnav.png';
 import ttlogo from '../../assets/Icons/ttlogo.png'
+import { Link } from "react-router";
 
 
 
@@ -23,10 +24,12 @@ export default function Navbar(){
             <div className="IconsContainer">
                 <img src={`${Notifications}`} className="Icons" alt="" />
                 <img src={`${Message}`} className="Icons" alt="" />
+                <Link to={"/Profile/38838284b1"}>
                 <div style={{display:'flex', alignItems:'center'}}>
                 <img src={`${Profileimage}`} className="ProfileImage" alt="" />
                 <p className="profilename">Salah</p>
                 </div>
+                </Link>
             </div>
 
         </div>
