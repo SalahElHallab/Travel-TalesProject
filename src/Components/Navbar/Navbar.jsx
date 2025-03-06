@@ -9,12 +9,15 @@ import { Link } from "react-router";
 
 
 
-export default function Navbar(){
-    return(
+export default function Navbar() {
+    return (
         <div className="mainNavbar">
-            <div className="LogoContainer">
-            <img src={`${ttlogo}`} style={{ width: '200px', height: 'auto' }} alt="" />
-            </div>
+
+            <Link to={"/"}><div className="LogoContainer">
+
+                <img src={`${ttlogo}`} style={{ width: '200px', height: 'auto' }} alt="" />
+            </div></Link>
+
             <div>
                 <div className="searchInputContainer">
                     <img src={`${searchIcon}`} className="Icons" alt="" />
@@ -25,10 +28,10 @@ export default function Navbar(){
                 <img src={`${Notifications}`} className="Icons" alt="" />
                 <img src={`${Message}`} className="Icons" alt="" />
                 <Link to={"/Profile/38838284b1"}>
-                <div style={{display:'flex', alignItems:'center'}}>
-                <img src={`${Profileimage}`} className="ProfileImage" alt="" />
-                <p className="profilename">Salah</p>
-                </div>
+                    <div style={{ display: 'flex', alignItems: 'center' }}>
+                        <img src={`${Profileimage}`} className="ProfileImage" alt="" />
+                        <p className="profilename">Salah</p>
+                    </div>
                 </Link>
             </div>
 
