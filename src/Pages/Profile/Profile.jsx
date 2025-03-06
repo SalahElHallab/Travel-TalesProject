@@ -2,8 +2,8 @@ import React from "react";
 import "./profile.css"
 import Navbar from "../../Components/Navbar/Navbar";
 import ProfileLeftbar from "../../Components/ProfileLeftsideContainer/ProfileLeftbar";
-import MainPost from "../../Components/MainPostContainer/MainPost";
 import ProfileRightbar from "../../Components/ProfileRightsideContainer/ProfileRightbar";
+import ProfileMainPost from "../../Components/ProfileMainPostContainer/ProfileMainPost";
 
 export default function Profile() {
     return(
@@ -11,7 +11,7 @@ export default function Profile() {
             <Navbar/>
             <div className="subProfileContainer">
               <ProfileLeftbar/>
-              <MainPost/>
+              <ProfileMainPost/>
               <ProfileRightbar/>
 
             </div>
