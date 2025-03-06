@@ -7,3 +7,7 @@ html, body {
     overflow-y: auto; /* Ensures only one main scrollbar */
     height: 100vh;
 }
+.app{
+    
+    background-color: aliceblue;
+}
