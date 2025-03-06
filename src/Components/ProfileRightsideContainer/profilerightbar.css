@@ -3,12 +3,14 @@ flex: 0;
 
 }
 
-.rightcontainer{
+.profilerightcontainer{
     width: 20pc;
     height: 40vh;
-    background-color: white;
+    background-color:#f9f6f2;
     margin-top: 20px;
     border-radius: 15px;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
 .travelimg{
@@ -25,7 +27,7 @@ flex: 0;
     
         width: 20pc;
         min-height: 55vh; /* or remove if not needed */
-        background-color: white;
+        background-color:#f9f6f2;
         margin-top: 20px;
         border-radius: 15px;
         height: auto; /* Allow it to grow based on content */
@@ -44,4 +46,10 @@ flex: 0;
     width: 20px;
     height: 20px;
    
+}
+.Friendsimage{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 10px;
 }

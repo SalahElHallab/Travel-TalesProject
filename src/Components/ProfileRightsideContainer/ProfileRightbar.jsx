@@ -12,24 +12,48 @@ import journalbook from "../../assets/journalbook.jpg"
 export default function ProfileRightbar() {
     return (
         <div className="Profilerightbar">
-            <div className="rightcontainer">
-                <div className="travelcontainer">
-                    <img src={`${img}`} className="travelimg"></img>
-                    <div>
-                        <p style={{ textAlign: "start", margin: "10px", marginTop: -50 }}>Travel Tales</p>
-                        <p style={{ textAlign: "start", margin: "10px", fontSize: "12px", marginTop: "-10px" }}>Where every TRAVEL becomes a TALE</p>
-                    </div>
+            <div className="profilerightcontainer">
+                <h3 style={{marginLeft:10}}>Buddy request</h3>
+              <div>
+                <div>
+                <div style={{display:'flex', alignItems:"center", marginLeft:10, cursor:'pointer'}}>
+                <img src={`${p3}`} className="Friendsimage" />
+                <p style={{textAlign:"start", marginLeft:"10px"}}>Ahmed Yur wants to become travel buddies</p>
+                </div> 
+                <div style={{display:"flex", justifyContent:"space-around"}}>
+                    <button style={{paddingLeft:"30px", paddingRight:"30px", paddingTop:5, paddingBottom:5, border:"none", backgroundColor: "#0077b6", color:"white", borderRadius:"10px"}}>Accept</button>
+                    <button style={{paddingLeft:"30px", paddingRight:"30px", paddingTop:5, paddingBottom:5, border:"none", backgroundColor: "#E74C3C" , color:"white", borderRadius:"10px"}}>Deny</button>
                 </div>
-                <div className="travelcontainer">
-                    <img src={`${journalbook}`} className="travelimg"></img>
-                    <div>
-                        <p style={{ textAlign: "start", margin: "10px", marginTop: -5 }}>Record your travels</p>
-                        <p style={{ textAlign: "start", margin: "10px", fontSize: "12px", marginTop: "-10px" }}>Document your journey, share experiences, 
-                            and connect with fellow travelers. Your travel story matters!</p>
-                    </div>
                 </div>
-
+                <div>
+                <div style={{display:'flex', alignItems:"center", marginLeft:10, cursor:'pointer'}}>
+                <img src={`${p5}`} className="Friendsimage" />
+                <p style={{textAlign:"start", marginLeft:"10px"}}>Jeff Yur wants to become travel buddies</p>
+                </div> 
+                <div style={{display:"flex", justifyContent:"space-around"}}>
+                    <button style={{paddingLeft:"30px", paddingRight:"30px", paddingTop:5, paddingBottom:5, border:"none", backgroundColor: "#0077b6", color:"white", borderRadius:"10px"}}>Accept</button>
+                    <button style={{paddingLeft:"30px", paddingRight:"30px", paddingTop:5, paddingBottom:5, border:"none", backgroundColor: "#E74C3C" , color:"white", borderRadius:"10px"}}>Deny</button>
+                </div>
+                </div>
+                <div>
+                <div style={{display:'flex', alignItems:"center", marginLeft:10, cursor:'pointer'}}>
+                <img src={`${p4}`} className="Friendsimage" />
+                <p style={{textAlign:"start", marginLeft:"10px"}}>Sam Phil wants to become travel buddies</p>
+                </div> 
+                <div style={{display:"flex", justifyContent:"space-around"}}>
+                    <button style={{paddingLeft:"30px", paddingRight:"30px", paddingTop:5, paddingBottom:5, border:"none", backgroundColor: "#0077b6", color:"white", borderRadius:"10px"}}>Accept</button>
+                    <button style={{paddingLeft:"30px", paddingRight:"30px", paddingTop:5, paddingBottom:5, border:"none", backgroundColor: "#E74C3C" , color:"white", borderRadius:"10px"}}>Deny</button>
+                </div>
+                </div>
+             
+             
+               
+              </div>
             </div>
+
+
+
+
             <div className="rightcontainer2">
 
                 <h3 style={{textAlign:"start", marginLeft:"10px"}}>Popular Tourist</h3>
