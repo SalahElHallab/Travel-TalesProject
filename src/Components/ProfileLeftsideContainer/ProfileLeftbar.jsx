@@ -10,7 +10,7 @@ import img5 from "../../assets/p5.jpeg";
 export default function ProfileLeftbar() {
     return (
         <div className="ProfileLeftbar">
-            <div className="NotificationContainer">
+            <div className="ProfileContainer">
                 <img src={`${notimg}`} className="ProfilepageCover" />
 
                 <div style={{ display: "flex", alignItems: "center", marginTop: -20 }}>
@@ -50,8 +50,16 @@ export default function ProfileLeftbar() {
                         <p style={{ marginTop: "5px" }}>Sam Yur</p>
                     </div>
                     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                        <img src={`${img2}`} className="friendimage" />
-                        <p style={{ marginTop: "5px" }}>Sam Yur</p>
+                        <img src={`${img3}`} className="friendimage" />
+                        <p style={{ marginTop: "5px" }}>Sara Gold</p>
+                    </div>
+                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                        <img src={`${img4}`} className="friendimage" />
+                        <p style={{ marginTop: "5px" }}>Aya Lam</p>
+                    </div>
+                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                        <img src={`${img5}`} className="friendimage" />
+                        <p style={{ marginTop: "5px" }}>Jeff Yur</p>
                     </div>
                     
                 </div>
